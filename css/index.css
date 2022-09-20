@@ -1,0 +1,280 @@
+html
+{
+    color: #333;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+
+}
+header
+{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    height: 130px ;
+    margin-top: 20px;
+}
+.main-nav
+{
+    list-style: none;
+    display: flex;
+}
+.main-nav li
+{
+    margin-right: 30px;
+}
+.main-nav a
+{
+    color: white;
+    text-decoration: none;
+}
+.main-nav li a:hover
+{
+   color: orange;
+   text-decoration: underline;
+}
+.hero
+{
+    position: absolute;
+    top: 40%;
+}
+h1
+{
+    color: white;
+    font-weight: 400px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.btn
+{
+    border: 1px solid orange;
+    margin-right: 15px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: orange;
+    text-decoration: none;
+}
+.btn:hover
+{
+    background-color: orange;
+    color: white;
+}
+section
+{
+    padding: 40px 0px;
+}
+h2
+{
+    text-align: center;
+    font-weight: 400px;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin-bottom: 15px;
+}
+/* hr
+{
+    width: 100px;
+    background-color: orange;
+    border: 3px solid orange;
+} */
+h2::after
+{
+    display: block;
+    content: "";
+    width: 100px;
+    height: 5px;
+    background-color: orange;
+    margin: 20px auto;
+}
+.features-des
+{
+    text-align: center;
+    margin: 20px auto ;
+    width: 60%;
+}
+.feature
+{
+    text-align: center;
+    
+}
+.feature i
+{
+    color: orange;
+    font-size: 50px;
+}
+.meal
+{
+    margin-bottom: -5px;
+    background-color: black;
+    overflow: hidden;
+}
+.meal img
+{
+    width: 100%;
+    opacity: .7;
+    transition: 1s;
+}
+.meal img:hover
+{
+    opacity: 1;
+    transform: scale(1.1);
+    margin-bottom: 0px;
+}
+.work:first-child
+{
+    text-align:right ;
+    padding-right: 5%;
+}
+.work:first-child img
+{
+    width: 35%;
+}
+.work:last-child
+{
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 50px;
+}
+.work:last-child img
+{
+    height: 10%;
+    margin-top: 20px;
+}
+.steps
+{
+    display: flex;
+    align-items: center;
+}
+.steps h4
+{
+    margin-right: 20px;
+    font-size: 1.2rem;
+    border: solid 2px orange;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.city img
+{
+    width: 100%;
+}
+.city-info
+{
+    margin-bottom: 20px;
+}
+.city-info i
+{
+    color: orange;
+    margin-right: 10px;
+}
+#testimonials
+{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+}
+#testimonials img
+{
+    width: 80px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#testimonials i
+{
+    font-size: 50px;
+}
+#testimonials p
+{
+   line-height: 1.5;
+}
+form
+{
+    padding-top: 10px;
+}
+label
+{
+    margin-bottom: 7px;
+}
+input[type=text],input[type=email], select
+{
+    margin-bottom: 7px;
+    width:100% ;
+    padding: 7px;
+    border: solid 1px;
+    border-radius: 5px;
+    outline: none;
+}
+input[type=checkbox]
+{
+    margin-bottom: 13px;
+    outline: none;
+}
+button
+{
+   font-size: 1.2rem;
+   color: white;
+   background-color: orange;
+   font-weight: 500;
+   border: 1px solid orange;
+   border-radius: 5px;
+   width: 70px;
+   height: 40px;
+   
+}
+footer
+{
+    padding: 40px 0px;
+    background-color: #333;
+    color: white;
+}
+footer p
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-nav,.social-nav
+{
+   display: flex;
+   list-style: none;
+}
+.footer-nav li,.social-nav li
+{
+    margin-left: 20px;
+}
+.footer-nav a,.social-nav a
+{
+    color: white;
+    text-decoration: none;
+}
+.footer-nav li a:hover,.social-nav li a:hover
+{
+    background-color: orange;
+    text-decoration: underline;
+}
+.social-nav
+{
+    float: right;
+}
